@@ -140,6 +140,11 @@
             <span>投中隔宿影片</span>
             <span class="px-1.5 py-0.5 rounded-full bg-nantou-red text-white text-[10px] font-black">25部</span>
           </a>
+          <a href="photos.html" class="px-3 py-2 rounded-lg bg-amber-100/80 hover:bg-amber-200 text-amber-900 font-bold transition-colors flex items-center gap-1.5">
+            <i class="fa-solid fa-camera text-nantou-red"></i>
+            <span>隔宿照片</span>
+            <span class="px-1.5 py-0.5 rounded-full bg-nantou-red text-white text-[10px] font-black">134張</span>
+          </a>
           <a href="#slides-gallery" class="px-3 py-2 rounded-lg hover:text-nantou-red hover:bg-slate-100 transition-colors">四套簡報展</a>
           <a href="#infographics" class="px-3 py-2 rounded-lg hover:text-nantou-red hover:bg-slate-100 transition-colors">露營圖解</a>
           <a href="#quotes" class="px-3 py-2 rounded-lg hover:text-nantou-red hover:bg-slate-100 transition-colors">主任金句</a>
@@ -163,10 +168,16 @@
 
     <!-- Mobile Dropdown -->
     <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 bg-white/95 backdrop-blur-md px-4 pt-3 pb-6 space-y-2 shadow-xl">
-      <a href="videos.html" class="block px-3 py-2.5 rounded-lg bg-orange-100 text-amber-900 font-black flex items-center justify-between">
-        <span class="flex items-center gap-2"><i class="fa-solid fa-film text-nantou-red"></i> 投中隔宿影片</span>
-        <span class="px-2 py-0.5 rounded-full bg-nantou-red text-white text-xs">25部全紀錄</span>
-      </a>
+      <div class="grid grid-cols-2 gap-2 pb-2 border-b border-slate-100">
+        <a href="videos.html" class="px-3 py-2.5 rounded-lg bg-orange-100 text-amber-900 font-black flex items-center justify-between text-xs">
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-film text-nantou-red"></i> 隔宿影片</span>
+          <span class="px-1.5 py-0.2 rounded-full bg-nantou-red text-white text-[10px]">25部</span>
+        </a>
+        <a href="photos.html" class="px-3 py-2.5 rounded-lg bg-amber-100 text-amber-900 font-black flex items-center justify-between text-xs">
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-camera text-nantou-red"></i> 隔宿照片</span>
+          <span class="px-1.5 py-0.2 rounded-full bg-nantou-red text-white text-[10px]">134張</span>
+        </a>
+      </div>
       <a href="#philosophy" class="block px-3 py-2 rounded-lg text-slate-800 font-medium hover:bg-slate-100">教育理念</a>
       <a href="#core-pillars" class="block px-3 py-2 rounded-lg text-slate-800 font-medium hover:bg-slate-100">四大支柱</a>
       <a href="#video-section" class="block px-3 py-2 rounded-lg text-nantou-red font-bold hover:bg-red-50">現場實況影音</a>
@@ -1087,8 +1098,10 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap items-center justify-center gap-6 text-slate-400">
+        <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-slate-400 font-medium">
           <a href="#hero" class="hover:text-white transition">回首頁</a>
+          <a href="videos.html" class="text-amber-400 hover:text-white transition font-bold"><i class="fa-solid fa-film mr-1"></i>投中隔宿影片(25部)</a>
+          <a href="photos.html" class="text-amber-400 hover:text-white transition font-bold"><i class="fa-solid fa-camera mr-1"></i>隔宿照片(134張)</a>
           <a href="#philosophy" class="hover:text-white transition">教育理念</a>
           <a href="#video-section" class="hover:text-white transition">實況影音</a>
           <a href="#slides-gallery" class="hover:text-white transition">簡報展覽</a>
