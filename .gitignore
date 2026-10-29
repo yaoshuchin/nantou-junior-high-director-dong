@@ -1,0 +1,11 @@
+# Ignore heavy pptx files and root temporary captures
+*.pptx
+pptx_extracted.txt
+1151023-董主任-*
+2026-10-28-14時-結訓典禮-10-主任談話.mp4
+director_speaking.jpg
+director_salute.jpg
+hero_students.jpg
+frame_*.jpg
+.vscode/
+.idea/
